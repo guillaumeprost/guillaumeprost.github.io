@@ -1,31 +1,30 @@
 /* colors http://coolors.co/c3f73a-95e06c-68b684-0c85ff-4c3020*/
 html, body{
-   margin: 0px;
-   padding: 0px;
-   outline: 0px;
-   height: 100%;
-    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.1);
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    //height: 100%;
     background-color: #4C3020;
 
 }
 header {
-	background-color: #4C3020;
-	background-size: cover;
-	background-position: center center;
-	padding: 50px;
-        padding-top: 1em;
-        	width: 100%;
-                padding-top: 10px;
-	height: 100%;
-	background-repeat: no-repeat;
-	text-align: center;
-	box-sizing: border-box;
-        display: block;
+    background-color: #4C3020;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    padding-top: 1em;
+    width: 100%;
+    padding-top: 10px;
+    height: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
 }
 
 header nav {
-	margin-bottom: 15px;
-        padding-bottom: 10%;
+    margin-bottom: 15px;
+    padding-bottom: 10%;
 }
 h1{
     font-family: 'Poiret One', cursive;
@@ -41,7 +40,8 @@ header p {
     font-size: 35px;
 }
 header .intro{
-    margin-top: 15%;
+    //margin-top: 15%;
+    margin-top: 5%;
     border-bottom: solid 5px #0C85FF;
     border-top: solid 5px #0C85FF;
     border-left: solid 5px #0C85FF;
@@ -61,7 +61,15 @@ header .intro{
     width: 100%;
 }
 
+.arrow{
+    position: absolute;
+    bottom: 2px;
+    right: 10px;
+    font-size: 50px;
+    color: #0C85FF;
+}
 
+/* Content */
 .content  h2{
     font-family: 'Poiret One', cursive;
     color: #0C85FF;
@@ -70,7 +78,7 @@ header .intro{
     text-align: center;
 }
 .content p{
-     color: #ecf0f1;
+    color: #ecf0f1;
 }
 
 .bordered{
@@ -78,11 +86,12 @@ header .intro{
     border-top: solid 5px #0C85FF;
     border-left: solid 5px #0C85FF;
     border-right: solid 5px #0C85FF;
-        padding-top: 1em;
+    padding-top: 1em;
 }
-section{
- padding-top: 1em;
-     display: block;
+.content section{
+    margin-top: 30px;
+    display: block;
+
 
 
 }
@@ -91,46 +100,78 @@ section{
 }
 .about p{
 
-font-family: 'Poiret One', cursive;
-font-size: 25px;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
 
 }
 .content-projects{
     height: 300px;
 }
 
-/**
-    FOOTER
-**/
+.projects{
+    border-bottom: solid 5px #0C85FF;
+    border-top: solid 5px #0C85FF;
+    border-left: solid 5px #0C85FF;
+    border-right: solid 5px #0C85FF; 
+}
+
+.project{
+    background-color: #0C85FF;
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-top: 10px;
+    height: 92%;
+}
+
+.contact{
+    height: 220px;
+    font-family: 'Poiret One', cursive;
+}
+
+.form-contact a{
+    text-decoration:none;
+    color: white;
+    background-color: #0C85FF;
+    height: 30px;
+    border-bottom: solid 10px #0C85FF;
+    border-top: solid 10px #0C85FF;
+    border-left: solid 10px #0C85FF;
+    border-right: solid 10px #0C85FF; 
+}
+
+
+
+/** FOOTER **/
 
 footer {
-border-top: solid 5px #0C85FF;
-height: 150px;
-background-position-x: -5px;
-margin-top: 100px;
-padding-top: 10px;
-background-size: cover;
-text-align: center;
-box-sizing: border-box;
-
+    border-top: solid 5px #0C85FF;
+    height: 150px;
+    background-position-x: -5px;
+    margin-top: 100px;
+    padding-top: 10px;
+    background-size: cover;
+    text-align: center;
+    box-sizing: border-box;
 }
 footer ul {
-padding: 0;
-color: #0C85FF;
-list-style: none;
-display: inline-block;
-margin-bottom: 0;
+    padding: 0;
+    color: #0C85FF;
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 0;
 }
 footer ul li {
-display: inline-block;
-margin: 15px;
+    display: inline-block;
+    margin: 15px;
 }
 footer ul li a{
-color: #0C85FF;
+    color: #0C85FF;
 }
 .social-network {
-margin-top: 0;
+    margin-top: 0;
 }
 .social-network li i {
-font-size: 3em;
+    font-size: 3em;
 }
