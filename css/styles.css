@@ -101,7 +101,7 @@ header .intro{
 .about p{
 
     font-family: 'Poiret One', cursive;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 .content-projects{
@@ -126,8 +126,9 @@ header .intro{
 }
 
 .contact{
-    height: 220px;
+    height: 300px;
     font-family: 'Poiret One', cursive;
+    font-size: 22px;
 }
 
 .form-contact a{
