@@ -129,9 +129,6 @@ nav li:hover{
 .content section{
     margin-top: 30px;
     display: block;
-
-
-
 }
 .separator{
     height: 200px;
@@ -172,12 +169,17 @@ nav li:hover{
 .form-contact a{
     text-decoration:none;
     color: white;
+    background-color: #4C3020;
+
+    padding: 10px;
+    border-bottom: solid 5px #0C85FF;
+    border-top: solid 5px #0C85FF;
+    border-left: solid 5px #0C85FF;
+    border-right: solid 5px #0C85FF;
+}
+
+.form-contact a:hover{
     background-color: #0C85FF;
-    height: 30px;
-    border-bottom: solid 10px #0C85FF;
-    border-top: solid 10px #0C85FF;
-    border-left: solid 10px #0C85FF;
-    border-right: solid 10px #0C85FF;
 }
 
 
