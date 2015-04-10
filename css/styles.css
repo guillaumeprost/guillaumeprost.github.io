@@ -11,7 +11,7 @@ header {
     background-color: #4C3020;
     background-size: cover;
     background-position: center center;
-    padding: 50px;
+    padding: 70px;
     padding-top: 1em;
     width: 100%;
     padding-top: 10px;
@@ -56,7 +56,7 @@ header .intro{
     box-sizing: border-box;
     display: block;
     height: 100%;
-    padding: 10px 50px 50px;
+    padding: 10px 70px 70px;
     text-align: center;
     width: 100%;
 }
