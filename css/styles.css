@@ -61,6 +61,44 @@ header .intro{
     width: 100%;
 }
 
+nav{
+    position: fixed;
+    left: -30px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    text-decoration:none;
+    border-bottom: solid 5px #0C85FF;
+    border-top: solid 5px #0C85FF;
+    border-left: solid 5px #0C85FF;
+    border-right: solid 5px #0C85FF;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 10px;
+    text-indent: -9999px;
+    font-size: 25px;
+    background-color: #4C3020;
+
+
+}
+
+nav li a {
+    font-family: 'Poiret One', cursive;
+    color: #0C85FF;
+    text-decoration: none;
+}
+
+nav li:hover{
+    padding: 10px;
+    text-indent: 0px;
+    height: 30px;
+    width: 90px;
+}
+
 .arrow{
     position: absolute;
     bottom: 2px;
@@ -111,7 +149,7 @@ header .intro{
     border-bottom: solid 5px #0C85FF;
     border-top: solid 5px #0C85FF;
     border-left: solid 5px #0C85FF;
-    border-right: solid 5px #0C85FF; 
+    border-right: solid 5px #0C85FF;
 }
 
 .project{
@@ -139,7 +177,7 @@ header .intro{
     border-bottom: solid 10px #0C85FF;
     border-top: solid 10px #0C85FF;
     border-left: solid 10px #0C85FF;
-    border-right: solid 10px #0C85FF; 
+    border-right: solid 10px #0C85FF;
 }
 
 
@@ -150,8 +188,6 @@ footer {
     border-top: solid 5px #0C85FF;
     height: 150px;
     background-position-x: -5px;
-    margin-top: 100px;
-    padding-top: 10px;
     background-size: cover;
     text-align: center;
     box-sizing: border-box;
